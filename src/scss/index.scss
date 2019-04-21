@@ -1,0 +1,8 @@
+body {
+	font-size: 36px;
+
+    // Because of how webpack works, URLs are ALWAYS relative to this file, no matter which file you require them in!
+	background-image: url('../assets/cool.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
